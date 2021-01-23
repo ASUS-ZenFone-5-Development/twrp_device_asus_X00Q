@@ -59,4 +59,16 @@ BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 # security version
 BOARD_CUSTOM_BOOTIMG_MK := $(DEVICE_PATH)/boot.mk
 
+# SHRP Variables
+SHRP_DEVICE_CODE := X00QD
+SHRP_PATH := device/asus/X00Q
+SHRP_MAINTAINER := Edward
+SHRP_REC_TYPE := Treble
+SHRP_DEVICE_TYPE := A_Only
+SHRP_EDL_MODE := 1
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usb_otg
+SHRP_FLASH := 1
+SHRP_DARK := true
+
 -include $(DEVICE_PATH)/BoardConfigTWRP.mk
