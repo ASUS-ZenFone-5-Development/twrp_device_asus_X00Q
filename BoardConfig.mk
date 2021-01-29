@@ -64,6 +64,7 @@ BOARD_CUSTOM_BOOTIMG_MK := $(DEVICE_PATH)/boot.mk
 SHRP_DEVICE_CODE := X00QD
 SHRP_PATH := device/asus/X00Q
 SHRP_MAINTAINER := Edward
+SHRP_REC := /dev/block/bootdevice/by-name/recovery
 SHRP_REC_TYPE := Treble
 SHRP_DEVICE_TYPE := A_Only
 SHRP_EDL_MODE := 1
